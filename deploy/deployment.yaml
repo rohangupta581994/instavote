@@ -12,10 +12,7 @@ spec:
     matchLabels:
       app: vote
   strategy: {}
-  template:
-    metadata:
-      creationTimestamp: null
-      labels:
+  template
         app: vote
         tier: front
     spec:
